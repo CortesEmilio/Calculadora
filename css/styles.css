@@ -1,0 +1,40 @@
+*{
+   box-sizing: border-box;
+   background-color: #242424;
+
+}
+
+  
+.contenedor{
+    max-width: 300px;
+    margin: 0 auto;
+}  
+
+.botones_calc{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #242424;
+
+}
+
+.botones{
+    background: none;
+    color: none;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+}
+.pantalla{
+ padding: 40px 10px;
+  width: 100%;
+  color: white;
+  text-align: right;
+  font-size: 40px;
+  border-radius: 0;
+  background-color: #242424;
+}
+
+ 
